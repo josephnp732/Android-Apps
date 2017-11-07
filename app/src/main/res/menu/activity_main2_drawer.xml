@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Book"
+            android:icon="@drawable/s_gas"
+            android:title="Book Gas" />
+        <item
+            android:id="@+id/nav_Nearby"
+            android:icon="@drawable/s_map"
+            android:title="Gas Agencies Nearby" />
+        <item
+            android:id="@+id/nav_Refill"
+            android:icon="@drawable/s_notepad"
+            android:title="Refill History" />
+        <item
+            android:id="@+id/nav_Rate"
+            android:icon="@drawable/s_star"
+            android:title="Rate Your Distibuter" />
+        <item
+            android:id="@+id/nav_Give"
+            android:icon="@drawable/s_rupee"
+            android:title="Opt out of subsidy" />
+        <item
+            android:id="@+id/nav_Conatact"
+            android:icon="@drawable/s_pen"
+            android:title="Lodge a complaint" />
+        <item
+            android:id="@+id/nav_Tell"
+            android:icon="@drawable/s_phone"
+            android:title="Contact Us" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/s_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>

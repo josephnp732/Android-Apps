@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ordo.com.example.joseph.ordo.Main2Activity"
+    tools:showIn="@layout/app_bar_main2">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:adjustViewBounds="true"
+        android:maxWidth="80dp"
+        android:maxHeight="80dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="3dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/gas"
+        android:layout_marginStart="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3"
+        android:adjustViewBounds="true"
+        android:maxWidth="80dp"
+        android:maxHeight="80dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="3dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/notepad"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/textView8"
+        android:layout_alignEnd="@+id/textView10" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton5"
+        android:adjustViewBounds="true"
+        android:maxWidth="90dp"
+        android:maxHeight="90dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="3dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/rupee"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/textView10"
+        android:layout_alignStart="@+id/textView12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Refill History"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/imageButton3"
+        android:layout_alignEnd="@+id/imageButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Opt out of Subsidy"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/imageButton5"
+        android:layout_alignStart="@+id/imageButton3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Rate your Distributer"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/imageButton4"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton6"
+        android:adjustViewBounds="true"
+        android:maxWidth="80dp"
+        android:maxHeight="80dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="3dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/pen"
+        android:layout_above="@+id/textView12"
+        android:layout_alignStart="@+id/imageButton4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Lodge a Complaint"
+        android:layout_below="@+id/imageButton6"
+        android:layout_alignStart="@+id/textView11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Gas Agencies Nearby"
+        android:layout_below="@+id/imageButton2"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Book Gas"
+        android:id="@+id/textView8"
+        android:layout_alignStart="@+id/textView14"
+        android:layout_below="@+id/imageButton" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:adjustViewBounds="true"
+        android:maxWidth="80dp"
+        android:maxHeight="80dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="3dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/placeholder"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_marginStart="15dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton4"
+        android:adjustViewBounds="true"
+        android:maxWidth="80dp"
+        android:maxHeight="80dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="3dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/favorite"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_alignStart="@+id/imageButton2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Contact Us"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/imageButton7"
+        android:layout_alignEnd="@+id/textView10" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton7"
+        android:adjustViewBounds="true"
+        android:maxWidth="85dp"
+        android:maxHeight="85dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="3dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/dialer"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/textView12"
+        android:layout_alignStart="@+id/imageButton5" />
+
+</RelativeLayout>
